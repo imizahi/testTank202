@@ -1,7 +1,13 @@
 #ifndef TANK_H
 #define TANK_H
 #include <string>
-#include "bullet.h"
+class Bullet
+{
+    std::string m_material;
+public:
+    Bullet(): m_material("wooden"){}
+
+};
 
 
 struct  Point
