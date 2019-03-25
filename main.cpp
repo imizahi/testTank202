@@ -9,6 +9,7 @@ int main(int argc, char *argv[])
 {
     Game game;
     game.start();
+    //commit master
 
     /*int amount;
     cout<<" enter amount tanks "<<endl;
