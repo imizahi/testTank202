@@ -1,14 +1,15 @@
 #ifndef TANK_H
 #define TANK_H
 #include <string>
-class Bullet
+#include "bullet.h"
+/*class Bullet
 {
     std::string m_material;
 public:
     Bullet(): m_material("wooden"){}
 
 };
-
+*/
 
 struct  Point
 {
@@ -21,6 +22,7 @@ class Tank
     int m_hp;
     int m_damage;
     Point m_position;
+    Bullet  arr[80];
     std::string m_name;
     //char *m_pWeapon;
 public:

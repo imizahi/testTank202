@@ -36,6 +36,9 @@ Tank::Tank(const Tank &othertank)
 Tank::~Tank(){
     //cout<<"<Destructor for T:"<<endl;
     //delete [] m_pWeapon;
+    int a;
+    a = a+1;
+    cout<<a;
 };
 
 void Tank::shoot(Tank &othertank)
@@ -108,6 +111,7 @@ Tank& Tank::operator=(const Tank & othertank){
     m_position = othertank.m_position;
     m_name = othertank.m_name;
     return *this;
+
 }
 Tank Tank::operator-(int hp){
 
