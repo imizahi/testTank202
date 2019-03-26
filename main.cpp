@@ -9,6 +9,7 @@ int main(int argc, char *argv[])
 {
     Game game;
     game.start();
+	//git hub comit 1
     //commit master
 
     /*int amount;
